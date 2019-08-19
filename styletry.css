@@ -1,12 +1,11 @@
-/*h1{
+/* h1{
           text-color: aqua;
-        }*/
+        } */
       div.field
         {
-          /*margin-left: 4cm;
-          margin-top: 6cm;*/
-          /*width:10cm;*/
-          height: auto;
+          margin-left: 4cm;
+          margin-top: 6cm;
+          width:10;
         }
 
     /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -28,17 +27,6 @@
       background-repeat: no-repeat;
     }*/
 
-    #bck{
-      background-image: url('coin.jpg');
-       height: 100%; 
-
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-    }
-
     #pay{
     
         background: linear-gradient(to top, #ff6600 0%, #ff9933 100%);
@@ -49,10 +37,7 @@
     
         background: linear-gradient(to top, #ff6600 0%, #ff9933 100%);
              /* font-size: 20px;*/
-      height: 100px;
-      margin-top:0px;
-      padding-top: 0px;
-      border-top: 0px;
+      height: 200px;
     }
     #bdlogo
     {
@@ -82,55 +67,29 @@
 
     }*/
 
-    .zoomin img {
-  height: 200px;
-  width: 200px;
-  -webkit-transition: all 2s ease;
-     -moz-transition: all 2s ease;
-      -ms-transition: all 2s ease;
-          transition: all 2s ease;
-}
-.zoomin img:hover {
-  width: 300px;
-  height: 300px;
-}
-
     
  
 
     body{
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 17px;
-      /*background-image: url("cash-coins-concept-41301.jpg");*/
-  /*background-repeat: no-repeat;*/
-  /*background-attachment: fixed;*/
-
-  
     }
     #foot{
       background-color:#faf8a5;
-      
     }
-
-    #imggap{
-      margin-bottom: 0px;
-      height: 70px;
-    }
-
     #para{
       text-align: justify;
     }
-    #try{
-      
-    }
+    
 
-   #easypay{
+    #easypay{
       /* margin-bottom: 10%; */
 
       left: 20px;
     bottom: 50px;
     position: relative;
-    color: #211f1d;
+
+      color: #211f1d;
     }
     .grid-container {
         display: grid;
@@ -151,73 +110,49 @@
 
       #div2{
 
-      /*background-color: green;*/
-      /*color: #fff; */
-      height: 1000px;
-
-/* margin: 0px auto; */
-/* padding: 0px; */
-      }
-
-      #boxleft{
-
-        border-radius: 25px;
-        border: 10px solid orange;
-        /*background: url(paper.gif);*/
-        /*background-position: left top;*/
-  /*background-repeat: repeat;*/
-  padding-bottom: 20px; 
-  padding-top: 20px;
-  /*width: 200px;*/
-  height: auto;  
-  margin-left: 15px;
-      }
-
-      #boxright{
-
-        border-radius: 25px;
-        border: 10px solid orange;
-        /*background: url(paper.gif);*/
-        /*background-position: left top;*/
-  /*background-repeat: repeat;*/
-  padding-bottom: 20px; 
-  padding-top: 20px;
-  /*width: 200px;*/
-  height: auto;  
-  margin-right: 15px;
+       /* background-color: green;
+        color: #fff; */
+        height: 1000px;
+        
+        /* margin: 0px auto; */
+        /* padding: 0px; */
       }
       
       #left{
-/*position: relative;*/
-/*left:400px;
-bottom:250px;
-height: 180px;*/
+        /*position: relative;*/
+        /*left:400px;
+        bottom:250px;
+        height: 180px;*/
+       
+        background-color: red;
+        color: #000; 
+       height: auto;
+        width: 48%;
+        left:10px;
+        float: left;
 
-background-color: red;
-color: #000;
-height: auto;
-width: 48%;
-left:10px;
-float: left;
       }
 
-     #right{
-position: relative;
-/*left:400px;
-bottom:250px;
-height: 180px;*/
-background-color: #efefef;
-color: #000;
-height:auto;
-width: 48%;
-float: right;
-}
+      #right{
+        position: relative;
+        /*left:400px;
+        bottom:250px;
+        height: 180px;*/
+         background-color: #efefef;
+        color: #000;
+        height:auto;
+        width: 48%;
+        float: right;
+      }
 
-     #auth{
-position: relative;
-/* left:100px; */
-top:20px;
-}
+      #auth{
+        position: relative;
+        /* left:100px; */
+        top:20px;
+      }
+      #gap{
+        margin-top: 50px;
+      }
 
       #sample{
         position: relative;
@@ -226,11 +161,13 @@ top:20px;
 
       }
       #sample1{
-position: relative;
-/* left:500px;
-bottom:290px; */}
+        position: relative;
+        /* left:500px;
+        bottom:290px; */
 
-      #sel{ 
+      }
+
+      #select { 
         appearance: none; 
         outline: 0; 
    
@@ -239,18 +176,7 @@ bottom:290px; */}
         cursor: pointer; 
         border:1px solid black; 
         border-radius:5px; 
-        width: 100px;
-
-        
     } 
-
-    #sel2{
-      position: absolute;
-        background-color: #f9f9f9;
-        min-width: 250px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      padding: 12px 16px;
-    }
 
     #button{
         background: #0066A2;
@@ -262,52 +188,53 @@ bottom:290px; */}
         
     }
 
-    /*#tab2{
-        align-content: left;
-    }*/
+    /* #tab2{
+         margin-top: 31%;
+    }  */
     /* Popup container - can be anything you want */
-.popup {
-  position: relative;
-  display: inline;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  /* background-color: #555; */
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: 5px;
-  border-width: 5px;
-  border-style: solid;
-  /* border-color: #555 transparent transparent transparent; */
-}
-
-/* Toggle this class - hide and show the popup */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-
+    .popup {
+      position: relative;
+      display: inline;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    /* The actual popup */
+    .popup .popuptext {
+      visibility: hidden;
+      width: 160px;
+      /* background-color: #555; */
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -80px;
+    }
+    
+    /* Popup arrow */
+    .popup .popuptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: 5px;
+      border-width: 5px;
+      border-style: solid;
+      /* border-color: #555 transparent transparent transparent; */
+    }
+    
+    /* Toggle this class - hide and show the popup */
+    .popup .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+    }
+    
+    
